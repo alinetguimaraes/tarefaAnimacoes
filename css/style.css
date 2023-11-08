@@ -1,0 +1,66 @@
+/* Para fontes externas */
+@font-face {
+    font-family: 'MK4';
+    src: url(../MK4.TTF);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'mkda';
+    src: url(../mkda.ttf);
+}
+
+
+body{
+    background-color: black;
+    color: rgb(150, 17, 28);
+}
+
+audio{
+    margin-top: 1em;
+}
+
+h1{
+    text-align: center;
+    font-family: 'MK4', Times, serif;
+    font-weight: lighter;
+    font-size: 5em;
+    text-shadow: 1px 2px 1px white;
+}
+
+
+img{
+    width: 70em;
+    height: auto;
+    margin: 0 auto;
+}
+
+div{
+    width: 70em;
+    margin: 5em auto;
+}
+
+footer{
+    text-align: center;
+    font-family: 'mkda', Times, serif;
+
+}
+
+/* Animação para pulsar a imagem */
+.fadeInFadeOut{
+    animation: fadeInFadeOut 1s linear infinite;
+}
+
+@keyframes fadeInFadeOut{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.1;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
