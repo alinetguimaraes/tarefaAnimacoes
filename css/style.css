@@ -64,3 +64,21 @@ footer{
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    
+    h1{
+        font-size: 2.5em;
+    }
+
+    div{
+        width: 20em;
+        margin-top: 10em;
+        margin-bottom: 10em;
+    }
+    
+    img{
+        width: 20em;
+    }
+}
